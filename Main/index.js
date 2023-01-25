@@ -7,7 +7,7 @@ const generateMD = require("./generateMD");
 inquirer.prompt ([
     {
         type:"input",
-        message:"What is the title of your project?",
+        message:"What is the title of your project/repo?",
         name:"title"
     },
 
@@ -45,23 +45,23 @@ inquirer.prompt ([
 
     {
         type:"input",
-        message:"How does one use this app? Can you provide examples?",
-        name:"Usage"
+        message:"How does one use this app?",
+        name:"usage"
     },
 
     {
         type:"input",
         message:"Who did you work with on this project? Please include links to GitHub profiles where applicable",
-        name:"Contributing"
+        name:"contributing"
     },
 
     {
         type:"input",
         message:"Please provide a test script for the user to test the project?",
-        name:"Tests"
+        name:"tests"
     }
 ])
 // log answers and write file
 .then((answers) => {
-    fs.writeFile("README.md",generateMD(answers), err=> err?console.log(err):"" )
+    fs.writeFile("sampleREADME.md",generateMD(answers), err=> err?console.log(err):"" )
 });

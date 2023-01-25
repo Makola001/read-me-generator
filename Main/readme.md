@@ -1,45 +1,35 @@
 
-    #  Trees
-        (answers) =>{
-    if (answers.license === "MIT") {
-      usedLicense =`![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
-    }else if (answers.license === "GPL") {
-      usedLicense = `![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)`
-    } else {
-      usedLicense = "N/A"
-    }
-    return usedLicense;
-}
+    #  read-me-generator
+        https://github.com/Makola001
     
-    ## Description
-        This is a study of trees. The project produces a range of tree species info based on selected tree.
+    # Description
+        This is a README file generator whereby a user is asked a series of questions. Based on their responses to the questions about their project, a README file will be generated.
     
-    ## Table of Contents
-        [Installation](#installation)
-        [Usage](#usage)
-        [License](#license)
-        [Contributors] (#contributing)
-        [Tests] (#tests)
-        [Questions](#questions)
+    # Table of Contents
+        * [Installation](#installation)
+        * [Usage](#usage)
+        * [License](#license)
+        * [Contributors] (#contributing)
+        * [Tests] (#tests)
+        * [Questions](#questions)
       
-    ## Installation
-        go to the github repo, clone a copy
+    # Installation
+        Install inquirer and fs packages
     
-    ## Usage
-        undefined
+    # Usage
+        User responds to question prompts after which a README file is generated for their project
     
-    ## License
+    # License
         The following license is used for this project:
-        GPL
+        None
     
-     ## Contributing
+     # Contributing
         Collaborators on this project include:
-        undefined
+        No collaboration, solo work.
     
-    ## Tests
+    # Tests
         The following test script can be used to execute an example of the project:
-        undefined
+        N/A
     
-     ## Questions
-        For any questions, please contact:
-        Email: mak@mak.com
+     # Questions
+        For any questions, please reach out to: alefa.mwenda@gmail.com
