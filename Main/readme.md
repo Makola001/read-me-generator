@@ -1,8 +1,18 @@
 
-    #  Read Me Generator
+    #  Trees
+        (answers) =>{
+    if (answers.license === "MIT") {
+      usedLicense =`![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
+    }else if (answers.license === "GPL") {
+      usedLicense = `![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)`
+    } else {
+      usedLicense = "N/A"
+    }
+    return usedLicense;
+}
     
     ## Description
-        dsasdas
+        This is a study of trees. The project produces a range of tree species info based on selected tree.
     
     ## Table of Contents
         [Installation](#installation)
@@ -13,13 +23,14 @@
         [Questions](#questions)
       
     ## Installation
-        abcd
+        go to the github repo, clone a copy
     
     ## Usage
         undefined
     
     ## License
         The following license is used for this project:
+        GPL
     
      ## Contributing
         Collaborators on this project include:
@@ -31,4 +42,4 @@
     
      ## Questions
         For any questions, please contact:
-        Email: dsvsdvs
+        Email: mak@mak.com

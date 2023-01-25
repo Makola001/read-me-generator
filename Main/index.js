@@ -21,7 +21,7 @@ inquirer.prompt ([
         type:"list",
         message:"What kind of license(s) does your project require?",
         name:"license",
-        choices: ["MIT", "GPLv2", "Apache", "Eclipse", "Mozilla", "Boost Software", "Unilicense", "Other"]
+        choices: ["MIT", "GPL", "None"]
     },
 
     {

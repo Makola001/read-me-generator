@@ -1,6 +1,9 @@
+const generateBadge = require("./badges")
+
 const generateMD = (answers) =>{
     return `
     #  ${answers.title}
+            ${generateBadge}
     
     ## Description
         ${answers.description}
@@ -36,3 +39,4 @@ const generateMD = (answers) =>{
         Email: ${answers.email}`
 }
 module.exports = generateMD
+
